@@ -168,6 +168,7 @@ p {
     justify-content: space-between;
     align-items: flex-end;
     border-top: solid 2px blue;
+    margin-top: 1px;
 }
 
 .redes__titulo {
@@ -277,7 +278,6 @@ p {
     padding-top: 80px;
     font-size: 40px;
 }
-
 
 /* .catalogo__grid {
     display: grid;
