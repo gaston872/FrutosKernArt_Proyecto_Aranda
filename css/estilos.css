@@ -263,7 +263,7 @@ p {
 /* -----------ESTILOS CATALOGO--------- */
 
 .parallax__catalogo {
-    background-image: url(/assets/img/van_gogh_starry_night_night_190226_1350x2400.jpg);
+    background-image: url(../assets/img/van_gogh_starry_night_night_190226_1350x2400.jpg);
     height: 300px;
     background-attachment: fixed;
     background-position: center;
