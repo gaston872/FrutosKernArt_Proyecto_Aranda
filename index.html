@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
@@ -42,8 +44,8 @@
 
 
     <main class="index__grid">
-        <h1>Frutos Kern Art</h1>
-        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab expedita numquam earum alias nesciunt
+        <h1 class="animate__animated animate__fadeInUp animate__slower">Frutos Kern Art</h1>
+        <p class="parrafo animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab expedita numquam earum alias nesciunt
             possimus perferendis molestias aliquid, doloremque sint soluta, harum eius tempora voluptas dolores et
             inventore excepturi sed!}
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, est. Expedita deserunt temporibus porro
@@ -51,9 +53,9 @@
             corporis impedit sequi.
         </p>
         <video width="200" height="100" src="./assets/video/pintando.mp4" controls></video>
-        <img src="./assets/img/marco.jpg" alt="">
-        <img src="./assets/img/nomarco.jpg" alt="">
-        <img src="./assets/img/reflejo.jpg" alt="">
+        <img data-aos="zoom-in-left" data-aos-duration="3000" src="./assets/img/marco.jpg" alt="">
+        <img data-aos="zoom-in-up" data-aos-duration="3000" src="./assets/img/nomarco.jpg" alt="">
+        <img data-aos="zoom-in-right" data-aos-duration="3000" src="./assets/img/reflejo.jpg" alt="">
     </main>
 
 
@@ -77,6 +79,12 @@
         </div>
     </footer>
 
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
