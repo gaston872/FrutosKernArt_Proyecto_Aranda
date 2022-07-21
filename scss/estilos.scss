@@ -6,13 +6,25 @@
 }
 
 /* ------------ESTILOS INDEX--------- */
-.header {
-    display: flex;
-    /* background-color: black; */
-    align-items: center;
-    /* flex-direction: column; */
-    justify-content: space-around;
-    background-color: black;
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand img{
+    width:70px;
+    height:70px;
+}
+
+.navbar-nav a{
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    border-radius: 20px;
+    transition: all 1s;
+    margin: 5px;
+}
+
+.navbar-nav a:hover{
+    border-color: #fff;
 }
 
 /* .header__navbar{
@@ -119,16 +131,12 @@ p {
 
 .usuario {
     text-align: right;
-    background-color: black;
-    color: white;
     padding: 5px;
     ;
 }
 
 .contrasenia {
     text-align: right;
-    background-color: black;
-    color: white;
     padding: 5px;
 }
 
