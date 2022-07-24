@@ -24,9 +24,6 @@
     border-color: #fff;
 }
 
-/* .header__navbar{
-    display:flex;
-}*/
 .header__navbar a {
   text-decoration: none;
   padding: 20px;
@@ -43,16 +40,6 @@
 
 .header__navbar a:hover {
   border-color: #fff; }
-
-  /* .display-3{
-    font-weight: 500;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}*/
 
 .card-body{
     display: flex;
@@ -132,30 +119,6 @@ p {
   padding: 5px; }
 
 /* -----------ESTILOS COLECCION------------- */
-/* .flex {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: solid blue; 
-}
-
-.menu {
-  display: flex;
-  gap: 1rem; }
-
-.menu__item {
-  list-style-type: none; }
-
-.menu__link {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5em;
-  border: 2px solid #fff;
-  transition: all 1s; }
-
-.menu__link:hover {
-  border-color: black; } */
 
 .footer__flex {
   display: flex;
@@ -250,39 +213,6 @@ p {
   padding-top: 80px;
   font-size: 40px; }
 
-/* .catalogo__grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    /* grid-template-areas: "titulo titulo titulo"
-                            "texto texto vid"
-                            "img1 img2 img3"; 
-    grid-row-gap: 10px;
-    grid-column-gap: 20px;
-    justify-items: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.catalogo__grid img{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-    overflow:auto;
-    flex: 1 1 50%;
-}
-
-@media screen and (max-width:480){
-    .catalogo__grid{
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(4, auto);
-    }
-
-    .catalogo__grid img{
-        width: 70;
-    }
-} */
 /* -------------ESTILOS SOBREMI---------------- */
 .carousel__alto {
   height: 500px; }
