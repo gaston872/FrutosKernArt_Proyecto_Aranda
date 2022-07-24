@@ -1,4 +1,4 @@
-@import "variables";
+@import "./utilities/variables";
 
 * {
     margin: 0;
@@ -47,6 +47,19 @@
     border-color: #fff;
 }
 
+.contenedor-card {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .footerindex__flex {
     display: flex;
     justify-content: space-between;
@@ -77,15 +90,15 @@
 .index__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 200px auto;
+    grid-template-rows: 50px 200px;
     grid-template-areas: "titulo titulo titulo"
-        "texto texto vid"
-        "img1 img2 img3";
+        "texto texto vid";
     grid-row-gap: 10px;
     grid-column-gap: 20px;
-    height: 100vh;
+    height: 50vh;
     justify-items: center;
     align-items: center;
+    text-align: center;
 }
 
 h1 {

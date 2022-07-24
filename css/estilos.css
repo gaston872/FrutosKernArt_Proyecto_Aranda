@@ -3,26 +3,21 @@
   padding: 0; }
 
 /* ------------ESTILOS INDEX--------- */
+.nav-link {
+  color: white; }
 
-  .nav-link{
-    color: white;
-}
+.navbar-brand img {
+  width: 70px;
+  height: 70px; }
 
-.navbar-brand img{
-    width:70px;
-    height:70px;
-}
+.navbar-nav a {
+  border: 2px solid rgba(0, 0, 0, 0.082);
+  border-radius: 20px;
+  transition: all 1s;
+  margin: 5px; }
 
-.navbar-nav a{
-    border: 2px solid rgba(0, 0, 0, 0.082);
-    border-radius: 20px;
-    transition: all 1s;
-    margin: 5px;
-}
-
-.navbar-nav a:hover{
-    border-color: #fff;
-}
+.navbar-nav a:hover {
+  border-color: #fff; }
 
 .header__navbar a {
   text-decoration: none;
@@ -41,11 +36,16 @@
 .header__navbar a:hover {
   border-color: #fff; }
 
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-} 
+.contenedor-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10px; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
 
 .footerindex__flex {
   display: flex;
@@ -72,15 +72,14 @@
 .index__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 200px auto;
-  grid-template-areas: "titulo titulo titulo"
- "texto texto vid"
- "img1 img2 img3";
+  grid-template-rows: 50px 200px;
+  grid-template-areas: "titulo titulo titulo" "texto texto vid";
   grid-row-gap: 10px;
   grid-column-gap: 20px;
-  height: 100vh;
+  height: 50vh;
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 h1 {
   grid-area: titulo;
@@ -111,15 +110,13 @@ p {
 
 .usuario {
   text-align: right;
-  padding: 5px; 
-}
+  padding: 5px; }
 
 .contrasenia {
   text-align: right;
   padding: 5px; }
 
 /* -----------ESTILOS COLECCION------------- */
-
 .footer__flex {
   display: flex;
   justify-content: space-between;
@@ -235,9 +232,7 @@ p {
     justify-content: center; }
   .index__grid {
     display: grid;
-    grid-template-areas: "titulo titulo"
- "texto texto"
- "img1 img3";
+    grid-template-areas: "titulo titulo" "texto texto" "img1 img3";
     grid-template-columns: 50% 50%; }
   .flex {
     flex-direction: column; }
