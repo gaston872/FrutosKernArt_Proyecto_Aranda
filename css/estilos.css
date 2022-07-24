@@ -44,6 +44,22 @@
 .header__navbar a:hover {
   border-color: #fff; }
 
+  /* .display-3{
+    font-weight: 500;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}*/
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} 
+
 .footerindex__flex {
   display: flex;
   justify-content: space-between;
@@ -116,7 +132,7 @@ p {
   padding: 5px; }
 
 /* -----------ESTILOS COLECCION------------- */
-.flex {
+/* .flex {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -139,7 +155,7 @@ p {
   transition: all 1s; }
 
 .menu__link:hover {
-  border-color: black; }
+  border-color: black; } */
 
 .footer__flex {
   display: flex;

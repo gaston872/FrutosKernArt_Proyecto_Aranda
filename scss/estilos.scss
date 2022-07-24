@@ -51,6 +51,22 @@
     border-color: #fff;
 }
 
+// .display-3{
+//     font-weight: 500;
+// }
+
+// .card-container {
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-wrap: wrap;
+// }
+
+// .card-body{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-end;
+// }
+
 .footerindex__flex {
     display: flex;
     justify-content: space-between;
@@ -143,35 +159,35 @@ p {
 
 
 /* -----------ESTILOS COLECCION------------- */
-.flex {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: solid blue;
-}
+// .flex {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     align-items: center;
+//     justify-content: space-around;
+//     border-bottom: solid blue;
+// }
 
 
-.menu {
-    display: flex;
-    gap: 1rem;
-}
+// .menu {
+//     display: flex;
+//     gap: 1rem;
+// }
 
-.menu__item {
-    list-style-type: none;
-}
+// .menu__item {
+//     list-style-type: none;
+// }
 
-.menu__link {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5em;
-    border: 2px solid #fff;
-    transition: all 1s;
-}
+// .menu__link {
+//     text-decoration: none;
+//     color: black;
+//     font-size: 1.5em;
+//     border: 2px solid #fff;
+//     transition: all 1s;
+// }
 
-.menu__link:hover {
-    border-color: black;
-}
+// .menu__link:hover {
+//     border-color: black;
+// }
 
 .footer__flex {
     display: flex;
