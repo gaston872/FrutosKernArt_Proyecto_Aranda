@@ -1,0 +1,74 @@
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: solid 2px blue;
+    margin-top: 1px;
+
+    .arriba {
+        text-decoration: none;
+        color: black;
+        padding: 0.5rem;
+    }
+
+    .redes{
+        &__icon {
+            color: black;
+            }
+        &__titulo {
+                text-align: center;
+            }
+    }
+    
+    .mapa__titulo {
+        padding: 0.5rem;
+    }
+}
+
+// ---------footer index-------------
+
+.footerindex__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+
+    .mapaindex__titulo {
+        padding: 0.5rem;
+        color: white;
+    }
+
+    .arribaindex {
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem;
+    }
+
+    .redesindex{
+        &__titulo {
+            text-align: center;
+            color: white;
+        }
+        &__icon {
+            color: white;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

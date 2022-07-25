@@ -1,0 +1,19 @@
+/* -----------ESTILOS CATALOGO--------- */
+
+.parallax__catalogo {
+    background-image: url(../assets/img/van_gogh_starry_night_night_190226_1350x2400.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 50px;
+
+    .catalogo__flex h1 {
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+        font-size: 40px;
+    }
+}
+
