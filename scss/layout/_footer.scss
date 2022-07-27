@@ -2,18 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border-top: solid 2px blue;
+    border-top: solid 2px $terciario;
     margin-top: 1px;
 
     .arriba {
         text-decoration: none;
-        color: black;
+        color: $secundario;
         padding: 0.5rem;
     }
 
     .redes{
         &__icon {
-            color: black;
+            color: $secundario;
             }
         &__titulo {
                 text-align: center;
@@ -31,26 +31,26 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: black;
+    background-color: $secundario;
 
     .mapaindex__titulo {
         padding: 0.5rem;
-        color: white;
+        color: $primario;
     }
 
     .arribaindex {
         text-decoration: none;
-        color: white;
+        color: $primario;
         padding: 0.5rem;
     }
 
     .redesindex{
         &__titulo {
             text-align: center;
-            color: white;
+            color: $primario;
         }
         &__icon {
-            color: white;
+            color: $primario;
         }
     }
 

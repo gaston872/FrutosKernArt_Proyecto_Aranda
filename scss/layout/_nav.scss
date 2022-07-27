@@ -12,12 +12,12 @@
             margin: 5px;
     
             &:hover {
-                border-color: #fff;
+                border-color: $primario;
             }
         }
     
         .nav-link {
-            color: white;
+            color: $primario;
         }
     }
 }

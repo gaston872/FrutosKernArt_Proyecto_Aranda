@@ -30,10 +30,21 @@
     }
 
     .index__grid {
-        display: grid;
-        grid-template-areas: "titulo titulo"
-            "texto texto";
-        grid-template-columns: 50% 50%;
+        // display: grid;
+        grid-template-columns: 2fr 1fr; 
+        // grid-template-rows: 50px 200px 200px;
+        // grid-template-areas: "titulo titulo titulo"
+        //     "texto texto texto"
+        //     "vid vid vid";
+        grid-row-gap: 0px;
+        grid-column-gap: 0px;
+         grid-template-areas: "titulo titulo"
+             "texto texto";
+        // grid-template-columns: 50% 50%;
+    }
+
+    video {
+        display: none;
     }
 
 // -------------FOOTER-----------
