@@ -1,0 +1,36 @@
+.index__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 200px;
+    grid-template-areas: "titulo titulo titulo"
+        "texto texto vid";
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        grid-area: titulo;
+        text-align: center;
+    }
+
+    p {
+        grid-area: texto;
+    }
+
+    .pintando {
+        grid-area: vid;
+    }
+}
+
+.usuario {
+    text-align: right;
+    padding: 5px;
+}
+
+.contrasenia {
+    text-align: right;
+    padding: 5px;
+}

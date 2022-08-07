@@ -4,104 +4,13 @@
 @import "./layout/nav";
 @import "./layout/footer";
 @import "./components/card";
+@import "./views/home";
 @import "./views/catalogo";
 @import "./views/coleccion";
 @import "./views/contacto";
 @import "./views/sobremi";
 @import "./utilities/mediaqueries";
 
-
-
-
-/* ------------ESTILOS INDEX--------- */
-
-
-
-// .header__navbar a {
-//     text-decoration: none;
-//     padding: 20px;
-//     color: white;
-// }
-
-// .header__navbar a {
-//     list-style-type: none;
-//     text-decoration: none;
-//     text-transform: uppercase;
-//     color: white;
-//     padding: 1rem;
-//     border: 2px solid black;
-//     transition: all 1s;
-// }
-
-// .header__navbar a:hover {
-//     border-color: #fff;
-// }
-// .header__navbar ul {
-//     list-style: none;
-//     display: flex;
-//     flex-wrap: nowrap;
-// }
-
-
-
-.index__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 200px;
-    grid-template-areas: "titulo titulo titulo"
-        "texto texto vid";
-    grid-row-gap: 10px;
-    grid-column-gap: 20px;
-    height: 100vh;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-
-    h1 {
-        grid-area: titulo;
-        text-align: center;
-    }
-
-    p {
-        grid-area: texto;
-    }
-
-    .pintando {
-        grid-area: vid;
-    }
-}
-
-
-
-
-
-
-
-// .marco {
-//     grid-area: img1;
-// }
-
-// .nomarco {
-//     grid-area: img2;
-// }
-
-// .reflejo {
-//     grid-area: img3;
-// }
-
-// .index__grid img {
-//     width: 100px;
-// }
-
-.usuario {
-    text-align: right;
-    padding: 5px;
-}
-
-.contrasenia {
-    text-align: right;
-    padding: 5px;
-}
 
 
 
